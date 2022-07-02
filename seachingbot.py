@@ -9,7 +9,7 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start'])
 async def process_start_command(message: types.Message):
-    await message.reply("Hello!\nWrite me what you want to find and i will send you a couple links to what you are looking for!")
+    await message.reply("Hello!\nWrite me what you want to find and i will send you a couple of links to what you are looking for!")
     
     
 @dp.message_handler(content_types='text')
