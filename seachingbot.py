@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher, executor, types
 from googlesearch import search
-
+#pip install googlesearch-python 
 
 bot = Bot(token="Your_bot_Token")
 
